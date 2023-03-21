@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.gallery {
+  width: 25vw;
+  height: 500px;
+  left: 0;
+  margin: auto 0;
+  overflow-y: scroll;
+  text-align: center;
+  padding: 20px;
+
+}
+
+
+.gallery-cat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.gallery-cat img {
+  width: 150px;
+  height: 120px;
+}
+
+.gallery-cat p {
+  margin: 10px;
+}
+.discover {
+  width: 50vw;
+  height: 80vh;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #eee;
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+
+.discover img {
+  width: 300px;
+  height: 250px;
+}
+
+.discover-cat button {
+  color: #e09f3e;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.info {
+  margin: 8px;
+}
+.banbar {
+  width: 25vw;
+  height: 500px;
+  right: 0;
+  margin: auto 0;
+  overflow-y: scroll;
+  padding: 20px;
+  text-align: center;
+}
